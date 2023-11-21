@@ -10,7 +10,8 @@
 In this lab, we'll discuss how the tests are set up for the labs in a typical
 React application, and give some tips for running tests.
 
-Fork and clone this lesson using the "Fork" button above so you can code along!
+Fork and clone this lesson by navigating to the GitHub repo with the "OctoCat"
+icon above so you can code along!
 
 ## Running Jest Tests
 
@@ -27,12 +28,7 @@ Jest comes preinstalled when you generate a React project using
 `create-react-app`, so all you have to do to run tests in React labs is run
 `npm test`, which will execute the test script found in the `package.json` file.
 
-> If you have the `learn` gem installed as part of your setup for this course,
-> you can also run `learn test`, which will run the test files _as well as_ sync
-> your progress with Canvas.
-
-Running `learn test` or `npm test` should produce output like this in your
-terminal:
+Running `npm test` should produce output like this in your terminal:
 
 ![jest demo](https://jestjs.io/img/blog/15-watch.gif)
 
@@ -117,8 +113,7 @@ So, all together, the test is:
 
 There are a couple of tests defined for this lab so you can get some practice.
 
-To get started, run `npm install` (if you haven't already), then run `npm test`
-or `learn test`.
+To get started, run `npm install` (if you haven't already), then run `npm test`.
 
 > **Pro tip**: you can use the shorthand `npm i` and `npm t` to run the install
 > and test scripts as well!
